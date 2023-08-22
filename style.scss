@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#nav{
+    background-color: rgb(2, 107, 243);
+    color: white;
+    p{
+        padding: 20px 0px 20px 40px;
+    }
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 0px 0px 100px;
+}
+
+.data{
+    background-color: aqua;
+    padding: 10px 30px 10px 10px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0 4px 2px -2px #9f9e9e;
+    p{
+        font-size: 15px;
+        padding-top: 5px;
+    }
+}
+
+.name{
+    font-weight: 600;
+}
+
+@media screen and (max-width: 500px) {
+    #main{
+        margin: 10px 0px 0px 50px;
+    } 
+    .data{
+        font-size: 10px;
+        p{
+            padding-top: 0px;
+        }
+    }
+}
